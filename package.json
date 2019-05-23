@@ -1,0 +1,30 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhadamel/space.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rhadamel/space/issues"
+  },
+  "homepage": "https://github.com/Rhadamel/space#readme",
+  "dependencies": {
+    "lit-element": "^2.1.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "lint": "prettier --check '**/*.js'",
+    "format": "prettier --write '**/*.js'"
+  },
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+  
+}
